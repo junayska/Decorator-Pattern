@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="controller.CarSeller">
+  <grid id="27dc6" binding="mypanel" layout-manager="GridLayoutManager" row-count="17" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="637"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7ce00" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="134" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Total Price:"/>
+        </properties>
+      </component>
+      <component id="3b0c4" class="javax.swing.JTextField" binding="priceField">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5b5d6" class="javax.swing.JTextArea" binding="textArea_description">
+        <constraints>
+          <grid row="15" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="150"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="93c9f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="6" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="134" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Car model:"/>
+        </properties>
+      </component>
+      <component id="10ec5" class="javax.swing.JRadioButton" binding="audiA3RadioButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Audi A3"/>
+        </properties>
+      </component>
+      <component id="22c59" class="javax.swing.JRadioButton" binding="skodaOctaviaRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Skoda Octavia"/>
+        </properties>
+      </component>
+      <component id="d085e" class="javax.swing.JCheckBox" binding="airConditionCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Air Condition"/>
+        </properties>
+      </component>
+      <component id="841f4" class="javax.swing.JCheckBox" binding="skiRackCheckBox" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Ski Rack"/>
+        </properties>
+      </component>
+      <component id="df56f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="134" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Choose accessories:"/>
+        </properties>
+      </component>
+      <component id="bed05" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="134" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Description:"/>
+        </properties>
+      </component>
+      <component id="387cb" class="javax.swing.JButton" binding="button_reset">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Reset"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="22c59"/>
+      <member id="10ec5"/>
+    </group>
+  </buttonGroups>
+</form>
